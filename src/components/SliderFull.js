@@ -32,7 +32,7 @@ const SliderFull = ({ data }) => {
         >
           {data.map((d) => (
             <SwiperSlide key={d.id}>
-              <Card src={d.src} />
+              <Card noHeight={true} src={d.src} />
             </SwiperSlide>
           ))}
         </Swiper>

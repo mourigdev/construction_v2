@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
-const Card = ({ src, Title, paragraph, action, slid }) => {
+const Card = ({ src, Title, paragraph, action, slid , noHeight}) => {
   return (
     <div className="card  w-11/12  mx-auto bg-base-200 shadow rounded ">
       <figure>
-        <img className="h-[250px] w-full		" src={src} alt={Title} />
+        {noHeight ? <img src={src} alt={Title} /> : <img className="h-[250px] w-full" src={src} alt={Title} />  }
       </figure>
       <div className="card-body">
         <h2
