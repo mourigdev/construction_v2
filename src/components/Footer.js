@@ -114,7 +114,7 @@ const Footer = ({ mt, title, text }) => {
         &copy; {new Date().getFullYear()} HERCULES GROUP . All rights reserved.
       </p>
       <p className="text-black text-center mt-10 pb-3">
-      Developed with <span style={{color:"#673AB7"}}>❤</span> By <a className="font-bold" style={{color:"#673AB7"}} href="http://mourigdev.netlify.com" target="_blank">Mourig Abdellah</a> 
+      Developed By <a className="font-bold" style={{color:"#673AB7"}} href="http://mourigdev.netlify.com" target="_blank">Mourig Abdellah</a> 
       </p>
     </footer>
   );
